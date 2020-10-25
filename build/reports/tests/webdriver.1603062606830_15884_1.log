@@ -1,0 +1,525 @@
+[1603062615.345][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 21232
+[1603062615.346][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603062619.434][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Reniton\\Downloads\\cursoMassa\\build\\downloads\\1603062596742_15884_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Reniton\\Downloads\\cursoMassa\\build\\downloads\\1603062596742_15884_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603062619.533][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Reniton\\Downloads\\cursoMassa\\build\\downloads\\1603062596742_15884_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603062619.549][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603062619.577][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1603062619.578][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Reniton\AppData\Local\Temp\scoped_dir10932_122934860" data:,
+[1603062635.268][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062637.025][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062638.297][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Reniton\\AppData\\Local\\Temp\\scoped_dir10932_122934860"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63861"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "205aefff82f9ff87f83d9a6f933954fc"
+}
+[1603062640.221][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603062640.221][INFO]: Waiting for pending navigations...
+[1603062640.233][INFO]: Done waiting for pending navigations. Status: ok
+[1603062640.601][INFO]: Waiting for pending navigations...
+[1603062640.605][INFO]: Done waiting for pending navigations. Status: ok
+[1603062640.606][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1603062640.859][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND Navigate {
+   "url": "https://alocpro.mirante.net.br//login"
+}
+[1603062640.859][INFO]: Waiting for pending navigations...
+[1603062640.862][INFO]: Done waiting for pending navigations. Status: ok
+[1603062644.833][INFO]: Waiting for pending navigations...
+[1603062646.544][INFO]: Done waiting for pending navigations. Status: ok
+[1603062646.544][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE Navigate
+[1603062647.712][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062647.712][INFO]: Waiting for pending navigations...
+[1603062647.716][INFO]: Done waiting for pending navigations. Status: ok
+[1603062647.795][INFO]: Waiting for pending navigations...
+[1603062647.798][INFO]: Done waiting for pending navigations. Status: ok
+[1603062647.798][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062648.339][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062648.340][INFO]: Waiting for pending navigations...
+[1603062648.348][INFO]: Done waiting for pending navigations. Status: ok
+[1603062648.425][INFO]: Waiting for pending navigations...
+[1603062648.433][INFO]: Done waiting for pending navigations. Status: ok
+[1603062648.433][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062648.735][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062648.735][INFO]: Waiting for pending navigations...
+[1603062648.740][INFO]: Done waiting for pending navigations. Status: ok
+[1603062648.814][INFO]: Waiting for pending navigations...
+[1603062648.817][INFO]: Done waiting for pending navigations. Status: ok
+[1603062648.817][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062649.101][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062649.101][INFO]: Waiting for pending navigations...
+[1603062649.105][INFO]: Done waiting for pending navigations. Status: ok
+[1603062649.136][INFO]: Waiting for pending navigations...
+[1603062649.139][INFO]: Done waiting for pending navigations. Status: ok
+[1603062649.140][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062649.417][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062649.417][INFO]: Waiting for pending navigations...
+[1603062649.422][INFO]: Done waiting for pending navigations. Status: ok
+[1603062649.456][INFO]: Waiting for pending navigations...
+[1603062649.461][INFO]: Done waiting for pending navigations. Status: ok
+[1603062649.461][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062649.744][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062649.745][INFO]: Waiting for pending navigations...
+[1603062649.748][INFO]: Done waiting for pending navigations. Status: ok
+[1603062649.779][INFO]: Waiting for pending navigations...
+[1603062649.783][INFO]: Done waiting for pending navigations. Status: ok
+[1603062649.783][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062650.053][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062650.053][INFO]: Waiting for pending navigations...
+[1603062650.056][INFO]: Done waiting for pending navigations. Status: ok
+[1603062650.092][INFO]: Waiting for pending navigations...
+[1603062650.095][INFO]: Done waiting for pending navigations. Status: ok
+[1603062650.095][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062650.372][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062650.372][INFO]: Waiting for pending navigations...
+[1603062650.376][INFO]: Done waiting for pending navigations. Status: ok
+[1603062650.418][INFO]: Waiting for pending navigations...
+[1603062650.422][INFO]: Done waiting for pending navigations. Status: ok
+[1603062650.422][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062650.731][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062650.731][INFO]: Waiting for pending navigations...
+[1603062650.735][INFO]: Done waiting for pending navigations. Status: ok
+[1603062650.854][INFO]: Waiting for pending navigations...
+[1603062650.858][INFO]: Done waiting for pending navigations. Status: ok
+[1603062650.858][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062651.137][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062651.137][INFO]: Waiting for pending navigations...
+[1603062651.142][INFO]: Done waiting for pending navigations. Status: ok
+[1603062651.185][INFO]: Waiting for pending navigations...
+[1603062651.188][INFO]: Done waiting for pending navigations. Status: ok
+[1603062651.189][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062651.457][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062651.457][INFO]: Waiting for pending navigations...
+[1603062651.461][INFO]: Done waiting for pending navigations. Status: ok
+[1603062651.497][INFO]: Waiting for pending navigations...
+[1603062651.501][INFO]: Done waiting for pending navigations. Status: ok
+[1603062651.501][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062651.781][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062651.781][INFO]: Waiting for pending navigations...
+[1603062651.791][INFO]: Done waiting for pending navigations. Status: ok
+[1603062651.836][INFO]: Waiting for pending navigations...
+[1603062651.841][INFO]: Done waiting for pending navigations. Status: ok
+[1603062651.841][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062652.113][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062652.113][INFO]: Waiting for pending navigations...
+[1603062652.117][INFO]: Done waiting for pending navigations. Status: ok
+[1603062652.162][INFO]: Waiting for pending navigations...
+[1603062652.165][INFO]: Done waiting for pending navigations. Status: ok
+[1603062652.165][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062652.463][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062652.464][INFO]: Waiting for pending navigations...
+[1603062652.469][INFO]: Done waiting for pending navigations. Status: ok
+[1603062652.548][INFO]: Waiting for pending navigations...
+[1603062652.551][INFO]: Done waiting for pending navigations. Status: ok
+[1603062652.552][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062652.844][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062652.844][INFO]: Waiting for pending navigations...
+[1603062652.850][INFO]: Done waiting for pending navigations. Status: ok
+[1603062652.882][INFO]: Waiting for pending navigations...
+[1603062652.885][INFO]: Done waiting for pending navigations. Status: ok
+[1603062652.885][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062653.156][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062653.156][INFO]: Waiting for pending navigations...
+[1603062653.159][INFO]: Done waiting for pending navigations. Status: ok
+[1603062653.185][INFO]: Waiting for pending navigations...
+[1603062653.188][INFO]: Done waiting for pending navigations. Status: ok
+[1603062653.188][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062653.455][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062653.456][INFO]: Waiting for pending navigations...
+[1603062653.460][INFO]: Done waiting for pending navigations. Status: ok
+[1603062653.493][INFO]: Waiting for pending navigations...
+[1603062653.497][INFO]: Done waiting for pending navigations. Status: ok
+[1603062653.498][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062653.805][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062653.805][INFO]: Waiting for pending navigations...
+[1603062653.809][INFO]: Done waiting for pending navigations. Status: ok
+[1603062653.840][INFO]: Waiting for pending navigations...
+[1603062653.846][INFO]: Done waiting for pending navigations. Status: ok
+[1603062653.847][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062654.119][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062654.119][INFO]: Waiting for pending navigations...
+[1603062654.122][INFO]: Done waiting for pending navigations. Status: ok
+[1603062654.163][INFO]: Waiting for pending navigations...
+[1603062654.168][INFO]: Done waiting for pending navigations. Status: ok
+[1603062654.168][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062654.459][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062654.459][INFO]: Waiting for pending navigations...
+[1603062654.471][INFO]: Done waiting for pending navigations. Status: ok
+[1603062654.514][INFO]: Waiting for pending navigations...
+[1603062654.518][INFO]: Done waiting for pending navigations. Status: ok
+[1603062654.519][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062654.788][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062654.788][INFO]: Waiting for pending navigations...
+[1603062654.794][INFO]: Done waiting for pending navigations. Status: ok
+[1603062654.830][INFO]: Waiting for pending navigations...
+[1603062654.833][INFO]: Done waiting for pending navigations. Status: ok
+[1603062654.833][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062655.102][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062655.102][INFO]: Waiting for pending navigations...
+[1603062655.105][INFO]: Done waiting for pending navigations. Status: ok
+[1603062655.135][INFO]: Waiting for pending navigations...
+[1603062655.138][INFO]: Done waiting for pending navigations. Status: ok
+[1603062655.138][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062655.439][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062655.440][INFO]: Waiting for pending navigations...
+[1603062655.456][INFO]: Done waiting for pending navigations. Status: ok
+[1603062655.508][INFO]: Waiting for pending navigations...
+[1603062655.536][INFO]: Done waiting for pending navigations. Status: ok
+[1603062655.537][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=86.0.4240.75)
+[1603062656.054][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062656.062][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062660.580][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062661.010][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062661.015][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062665.599][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062665.899][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062665.904][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062670.080][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062670.343][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062670.352][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062674.841][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062675.153][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062675.157][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062679.847][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062680.212][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062680.216][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062684.548][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062684.830][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062684.834][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062689.479][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062689.772][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062689.798][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062694.281][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062694.557][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062694.562][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062699.179][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062699.445][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062699.449][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062703.873][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062704.141][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062704.146][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062708.591][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062708.864][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062708.869][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062713.080][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062713.384][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062713.389][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062717.682][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062717.953][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062717.957][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062722.577][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062722.848][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1603062722.856][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062727.278][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062727.718][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1603062727.722][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062732.078][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE ExecuteScript ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062732.204][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND Screenshot {
+
+}
+[1603062732.208][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062736.773][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE Screenshot ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062737.227][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "localStorage.clear();"
+}
+[1603062737.232][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603062741.573][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE ExecuteScript ERROR chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+[1603062742.104][INFO]: [205aefff82f9ff87f83d9a6f933954fc] COMMAND Quit {
+
+}
+[1603062742.110][INFO]: [205aefff82f9ff87f83d9a6f933954fc] RESPONSE Quit

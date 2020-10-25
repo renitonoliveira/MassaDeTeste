@@ -1,0 +1,175 @@
+[1603157131.205][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 5356
+[1603157131.206][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603157133.715][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Reniton\\Downloads\\Gerenciamento de Massa de teste\\build\\downloads\\1603157127987_10664_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Reniton\\Downloads\\Gerenciamento de Massa de teste\\build\\downloads\\1603157127987_10664_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603157133.742][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Reniton\\Downloads\\Gerenciamento de Massa de teste\\build\\downloads\\1603157127987_10664_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603157133.753][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603157133.781][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1603157133.782][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Reniton\AppData\Local\Temp\scoped_dir1136_1213595471" data:,
+[1603157139.349][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603157140.469][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603157141.717][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Reniton\\AppData\\Local\\Temp\\scoped_dir1136_1213595471"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63094"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e3345cf71b3cfa2a7ff45ce75fc16a8e"
+}
+[1603157142.255][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603157142.255][INFO]: Waiting for pending navigations...
+[1603157142.265][INFO]: Done waiting for pending navigations. Status: ok
+[1603157142.442][INFO]: Waiting for pending navigations...
+[1603157142.445][INFO]: Done waiting for pending navigations. Status: ok
+[1603157142.445][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1603157142.639][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] COMMAND Navigate {
+   "url": "http://localhost:8080/login"
+}
+[1603157142.639][INFO]: Waiting for pending navigations...
+[1603157142.642][INFO]: Done waiting for pending navigations. Status: ok
+[1603157146.116][INFO]: Waiting for pending navigations...
+[1603157150.265][INFO]: Done waiting for pending navigations. Status: ok
+[1603157150.643][INFO]: Waiting for pending navigations...
+[1603157150.712][INFO]: Done waiting for pending navigations. Status: ok
+[1603157153.140][INFO]: Waiting for pending navigations...
+[1603157153.243][INFO]: Done waiting for pending navigations. Status: ok
+[1603157153.243][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=86.0.4240.75)
+[1603157153.575][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] COMMAND Quit {
+
+}
+[1603157155.703][INFO]: [e3345cf71b3cfa2a7ff45ce75fc16a8e] RESPONSE Quit

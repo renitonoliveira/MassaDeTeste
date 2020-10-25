@@ -1,0 +1,196 @@
+[1603076155.405][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 43973
+[1603076155.406][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1603076158.399][INFO]: [147a44e7feae6327dbebf1af91e901da] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Reniton\\Downloads\\cursoMassa\\build\\downloads\\1603076151314_11436_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Reniton\\Downloads\\cursoMassa\\build\\downloads\\1603076151314_11436_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1603076158.439][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Reniton\\Downloads\\cursoMassa\\build\\downloads\\1603076151314_11436_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1603076158.448][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1603076158.471][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1603076158.471][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Reniton\AppData\Local\Temp\scoped_dir14356_487941214" data:,
+[1603076162.943][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603076164.042][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1603076165.284][INFO]: [147a44e7feae6327dbebf1af91e901da] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\Reniton\\AppData\\Local\\Temp\\scoped_dir14356_487941214"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54442"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "147a44e7feae6327dbebf1af91e901da"
+}
+[1603076165.969][INFO]: [147a44e7feae6327dbebf1af91e901da] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1603076165.970][INFO]: Waiting for pending navigations...
+[1603076165.980][INFO]: Done waiting for pending navigations. Status: ok
+[1603076166.161][INFO]: Waiting for pending navigations...
+[1603076166.165][INFO]: Done waiting for pending navigations. Status: ok
+[1603076166.165][INFO]: [147a44e7feae6327dbebf1af91e901da] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1603076166.415][INFO]: [147a44e7feae6327dbebf1af91e901da] COMMAND Navigate {
+   "url": "http://seubarriga.wcaquino.me/login"
+}
+[1603076166.415][INFO]: Waiting for pending navigations...
+[1603076166.430][INFO]: Done waiting for pending navigations. Status: ok
+[1603076167.958][INFO]: Waiting for pending navigations...
+[1603076171.668][INFO]: Done waiting for pending navigations. Status: ok
+[1603076171.668][INFO]: [147a44e7feae6327dbebf1af91e901da] RESPONSE Navigate
+[1603076176.473][INFO]: [147a44e7feae6327dbebf1af91e901da] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "localStorage.clear();"
+}
+[1603076176.474][INFO]: Waiting for pending navigations...
+[1603076176.478][INFO]: Done waiting for pending navigations. Status: ok
+[1603076176.496][INFO]: Waiting for pending navigations...
+[1603076176.500][INFO]: Done waiting for pending navigations. Status: ok
+[1603076176.500][INFO]: [147a44e7feae6327dbebf1af91e901da] RESPONSE ExecuteScript null
+[1603076176.662][INFO]: [147a44e7feae6327dbebf1af91e901da] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1603076176.662][INFO]: Waiting for pending navigations...
+[1603076176.667][INFO]: Done waiting for pending navigations. Status: ok
+[1603076176.684][INFO]: Waiting for pending navigations...
+[1603076176.687][INFO]: Done waiting for pending navigations. Status: ok
+[1603076176.687][INFO]: [147a44e7feae6327dbebf1af91e901da] RESPONSE ExecuteScript "\u003Chtml lang=\"pt-br\">\u003Chead>\n\t\t\u003Cmeta charset=\"UTF-8\">\n\t\t\u003Ctitle>Seu Barriga - Log in\u003C/title>\n\t\t\u003C!-- Latest compiled and minified CSS -->\n        \u003Clink rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn..."
+[1603076176.786][INFO]: [147a44e7feae6327dbebf1af91e901da] COMMAND Screenshot {
+
+}
+[1603076176.786][INFO]: Waiting for pending navigations...
+[1603076176.789][INFO]: Done waiting for pending navigations. Status: ok
+[1603076177.529][INFO]: Waiting for pending navigations...
+[1603076177.532][INFO]: Done waiting for pending navigations. Status: ok
+[1603076177.532][INFO]: [147a44e7feae6327dbebf1af91e901da] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X+YnXV9J/z3PZlJQnQkCZkEogaIIukMCuxS5JcsuMZeWOojFGVJdtdnn13jrnXLj/Zptw27blvhqbuKoVVb0m6fbvdJEES0ldXVYYUiCKVaQDORiERJdYDMk..."
+[1603076179.516][INFO]: [147a44e7feae6327dbebf1af91e901da] COMMAND Quit {
+
+}
+[1603076180.581][INFO]: [147a44e7feae6327dbebf1af91e901da] RESPONSE Quit
